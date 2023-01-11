@@ -4,11 +4,14 @@
 ## Project Objective :
 The objective of this project is to use historical loan application data to predict whether or not an applicant will be able to repay a loan. The goal is to build a model that can identify the loan applicants who are likely to repay the loan, allowing companies to avoid losses and incur profits.
 
+## Introduction
+An existential problem for any loan providers today is to find out the loan applicants who are very likely to repay the loan. This way companies can avoid losses and incur huge profits. Home Credit offers easy, simple and fast loans for a range of home appliances, mobile phones, laptops, two-wheelers, and varied personal needs. Home Credit comes up with a Kaggle challenge to find out the loan applicants who are capable of repaying a loan, given the applicant data, all credits data from Credit Bureau, previous applications data from Home Credit, and some more data.
+
 ## Problem Statement
 Home Credit, a company that offers easy, simple and fast loans for a range of Home Appliances, Mobile Phones, Laptops, Two Wheeler's, and varied personal needs, has a challenge on Kaggle to find out the loan applicants who are capable of repaying a loan, given the applicant data, all credits data from Credit Bureau, previous applications data from Home Credit and some more data.
 
 ## Dataset Description
-The dataset used for this project is from the Home Credit Default Risk Kaggle competition. It includes the following files:
+The datasets used in this project can be found on [Home Credit Default Risk](https://www.kaggle.com/competitions/home-credit-default-risk/data)
 
 ### application_{train|test}.csv: 
 This is the main table, broken into two files for Train (with TARGET) and Test (without TARGET). Static data for all applications. One row represents one loan in the data sample.
