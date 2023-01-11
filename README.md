@@ -51,4 +51,42 @@ The models used in this project are Light Gradient Boosting Algorithm (LGBM) and
 
 ## Results
 The results of the project showed that
+Project Title: Home Credit Risk Management
+Project Description:
+The objective of this project is to use historical loan application data to predict whether or not an applicant will be able to repay a loan. Home Credit, a company that offers easy, simple and fast loans for a range of Home Appliances, Mobile Phones, Laptops, Two Wheelers, and varied personal needs, has come up with a Kaggle challenge to find out the loan applicants who are capable of repaying a loan, given the applicant data, all credits data from Credit Bureau, previous applications data from Home Credit and some more data. The goal is to build a model to predict how capable each applicant is of repaying a loan, so that sanctioning loan only for the applicants who are likely to repay the loan.
 
+Data:
+The dataset consists of several different types of data, including information about the applicant, their credit history, previous loan applications, and their repayment history.
+The data can be found here
+
+Requirements:
+The project is built on python3 and requires the following packages:
+
+numpy
+pandas
+seaborn
+matplotlib
+sklearn
+lightgbm
+scikitplot
+Installation:
+Clone the repository
+Create a virtual environment
+Install the required packages using pip
+Copy code
+pip install -r requirements.txt
+Usage:
+Run the jupyter notebook
+Run all the cells
+Results:
+The model uses Light Gradient Boosting Machine (LGBM) algorithm and compares it with Logistic Regression algorithm. The performance of the model is evaluated using various metrics such as Confusion matrix, Precision, Recall, F1 Score and ROC. The model with LGBM has a higher recall score of 64.59% and AUC of 0.73, compared to Logistic Regression model.
+
+Further Improvements:
+Further tuning of the LGBM model's hyperparameters
+Ensemble techniques like XGboost and Random Forest
+Use of oversampling techniques like SMOTE to handle class imbalance.
+References:
+https://www.kaggle.com/c/home-credit-default-risk/overview/evaluation
+https://lightgbm.readthedocs.io/en/latest/
+Contact:
+For further questions or support, please contact the authors.
