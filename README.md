@@ -10,21 +10,29 @@ Home Credit, a company that offers easy, simple and fast loans for a range of Ho
 ## Dataset Description
 The dataset used for this project is from the Home Credit Default Risk Kaggle competition. It includes the following files:
 
-### application_{train|test}.csv: This is the main table, broken into two files for Train (with TARGET) and Test (without TARGET). Static data for all applications. One row represents one loan in the data sample.
+### application_{train|test}.csv: 
+This is the main table, broken into two files for Train (with TARGET) and Test (without TARGET). Static data for all applications. One row represents one loan in the data sample.
 
-### bureau.csv: All client's previous credits provided by other financial institutions that were reported to Credit Bureau (for clients who have a loan in the sample). For every loan in the sample, there are as many rows as number of credits the client had in Credit Bureau before the application date.
+### bureau.csv: 
+All client's previous credits provided by other financial institutions that were reported to Credit Bureau (for clients who have a loan in the sample). For every loan in the sample, there are as many rows as number of credits the client had in Credit Bureau before the application date.
 
-### bureau_balance.csv: Monthly balances of previous credits in Credit Bureau. This table has one row for each month of history of every previous credit reported to Credit Bureau.
+### bureau_balance.csv: 
+Monthly balances of previous credits in Credit Bureau. This table has one row for each month of history of every previous credit reported to Credit Bureau.
 
-### POS_CASH_balance.csv: Monthly balance snapshots of previous POS (point of sales) and cash loans that the applicant had with Home Credit. This table has one row for each month of history of every previous credit in Home Credit (consumer credit and cash loans) related to loans in the sample.
+### POS_CASH_balance.csv: 
+Monthly balance snapshots of previous POS (point of sales) and cash loans that the applicant had with Home Credit. This table has one row for each month of history of every previous credit in Home Credit (consumer credit and cash loans) related to loans in the sample.
 
-### credit_card_balance.csv: Monthly balance snapshots of previous credit cards that the applicant has with Home Credit. This table has one row for each month of history of every previous credit in Home Credit (consumer credit and cash loans) related to loans in the sample.
+### credit_card_balance.csv: 
+Monthly balance snapshots of previous credit cards that the applicant has with Home Credit. This table has one row for each month of history of every previous credit in Home Credit (consumer credit and cash loans) related to loans in the sample.
 
-### previous_application.csv: All previous applications for Home Credit loans of clients who have loans in the sample. There is one row for each previous application related to loans in the data sample.
+### previous_application.csv: 
+All previous applications for Home Credit loans of clients who have loans in the sample. There is one row for each previous application related to loans in the data sample.
 
-### installments_payments.csv: Repayment history for the previously disbursed credits in Home Credit related to the loans in the sample.
+### installments_payments.csv: 
+Repayment history for the previously disbursed credits in Home Credit related to the loans in the sample.
 
-### HomeCredit_columns_description.csv: This file contains descriptions for the columns in the various data files.
+### HomeCredit_columns_description.csv:
+This file contains descriptions for the columns in the various data files.
 
 ## Methodology
 The project is broken down into the following steps:
