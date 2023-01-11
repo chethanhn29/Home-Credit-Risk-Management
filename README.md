@@ -37,6 +37,33 @@ Repayment history for the previously disbursed credits in Home Credit related to
 ### HomeCredit_columns_description.csv:
 This file contains descriptions for the columns in the various data files.
 
+##  Requirements:
+
+##### 1. Python 3.x
+##### 2. Jupyter Notebook
+##### 3. Pandas
+##### 4. NumPy
+##### 5. Matplotlib
+##### 6. Seaborn
+##### 7. Sklearn
+##### 8. LightGBM
+The above listed libraries and packages are necessary to run the project. Make sure to have them installed in your system before running the project.
+
+
+Jupyter Notebook is used to run the code and visualize the results.
+
+Pandas is used for data manipulation and analysis.
+
+NumPy is used for numerical operations.
+
+Matplotlib and Seaborn are used for data visualization.
+
+Sklearn (Scikit-learn) is used for Machine Learning models and evaluation metrics.
+
+LightGBM is used for training and prediction of the model.
+
+Please use the latest version of the above listed libraries and packages for better compatibility with the code.
+
 ## Methodology
 The project is broken down into the following steps:
 
@@ -51,6 +78,15 @@ The models used in this project are Light Gradient Boosting Algorithm (LGBM) and
 
 ## Results
 The results of the project showed that
+
+
+
+
+
+
+
+
+
 Project Title: Home Credit Risk Management
 Project Description:
 The objective of this project is to use historical loan application data to predict whether or not an applicant will be able to repay a loan. Home Credit, a company that offers easy, simple and fast loans for a range of Home Appliances, Mobile Phones, Laptops, Two Wheelers, and varied personal needs, has come up with a Kaggle challenge to find out the loan applicants who are capable of repaying a loan, given the applicant data, all credits data from Credit Bureau, previous applications data from Home Credit and some more data. The goal is to build a model to predict how capable each applicant is of repaying a loan, so that sanctioning loan only for the applicants who are likely to repay the loan.
@@ -90,3 +126,37 @@ https://www.kaggle.com/c/home-credit-default-risk/overview/evaluation
 https://lightgbm.readthedocs.io/en/latest/
 Contact:
 For further questions or support, please contact the authors.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Project Steps:
+
+Data Exploration: Understanding the structure and distribution of the data through visualizations and statistical analysis.
+
+Feature Engineering: Transforming and creating new features from the existing data to improve model performance. Techniques such as data normalization, one-hot encoding, and handling imbalanced data were used.
+
+Data Preparation: Cleaning and pre-processing the data for model building. This step includes handling missing values, outlier detection, and feature scaling.
+
+Machine Learning Modelling: Developing predictive models using Light gradient boosting algorithm(LGBM) and logistic regression.
+
+Performance Metrics: Evaluating the performance of the models using metrics such as confusion matrix, precision score, recall score, F1 score and AUC.
+
+Conclusion: Summarizing the findings and discussing the limitations of the project.
